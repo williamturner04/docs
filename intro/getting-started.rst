@@ -129,6 +129,18 @@ contributed wrappers include file system "watcher" features to speed this up. Th
 rescan interval can be changed for each folder by clicking on a folder,
 clicking "Edit" and entering a new value for "Rescan Interval".
 
+Example Use Cases
+-----------
+
+ONE FOLDER - MULTIPLE DEVICES
+To synchronize a folder (e.g. folder “F”) that you wish to have the same data contents across multiple devices (e.g. devices “A”, “B” and “C”) then create a new share on each device using “Add Folder” and ensure the “Folder ID” is the same on all devices
+
+SEND ONLY MODE
+To have one device act as a “master copy” and other devices to clone from the “master”, use “send only” mode. See page: `Folder Types <https://docs.syncthing.net/users/foldertypes.html>`__ . 
+
+RECEIVE ONLY MODE
+To have a device clone changes made on the cluster, but not distribute local changes use “receive only” mode. See page: `Folder Types <https://docs.syncthing.net/users/foldertypes.html>`__ 
+
 --------------
 
 Good luck and have fun! There is more `documentation
